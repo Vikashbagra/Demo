@@ -6,7 +6,7 @@ const app = express()
 app.set("view engine", 'hbs')
 
 app.get("/",(req,res)=>{
-    res.json({message : hello})
+    res.send("hello")
 })
 
 
