@@ -12,6 +12,4 @@ app.get("/",(req,res)=>{
 
 
 
-app.listen(process.env.PORT || 3000,()=>{
-    console.log(`Your Server is started ${process.env.PORT || 3000}`)
-} )
+app.listen()
